@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Great+Vibes&family=Pacifico&family=Signika+Negative:wght@300..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.topnav{
+    display: flex;
+    padding: 7px;
+    background: rgb(22, 2, 2);
+    align-items: center;
+}
+.topnav img{
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    right: 250px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+    left: 200px;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 245, 245);
+    text-decoration: none;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 30px;
+    transition: 0.3s ease-in-out;
+  }
+  .navbar ul li a:hover{
+    background-color: rgba(188, 0, 0, 0.652);
+  }
+  .main{
+    display: block;
+  }
+  .container{
+    background-image:url(image/reddd.jpg);
+    height: 90vh;
+  }
+  .container h1{
+    font-family: "Cinzel", serif;
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    padding-top: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px #aa0000;
+  }
+  .container h2{
+    font-family: "Great Vibes", cursive;
+    font-weight: lighter;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 245, 245);
+    text-shadow: 3px 3px #000000;
+}
+.container a{
+  width: 300px;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Cinzel", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  background: linear-gradient(90deg, #d70000, #a10000, #6F0001, #610001,#530001, #d70000);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+  transition: 0.3s ;
+}
+.container a:hover{
+animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0%;
+
+  }
+  100%{
+    background-position: 300%;
+
+  }
+}
+
+.container a:hover {
+  box-shadow: #5f0002  0px 8px 48px, #eea3a4 0px 8px 48px, #ff0004 0px 8px 48px;
+}
+.main2{
+  display: flex;
+  
+}
+.profile{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.profile img{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.profile h2{
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+  font-family: "Cinzel", serif;
+}
+.profile p{
+  text-align: center;
+  font-size: 18px;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+}
+.skill-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.skill-row img{
+  padding: 30px;
+}
+.skill-row h3{
+  padding: 20px;
+  font-size: 35px;
+  font-family: "Cinzel", serif;
+
+
+}
+.skill-row p{
+  width: 600px;
+  padding: 10px;
+  font-size: 17px;
+}
+
+
+
+hr{
+  width: 600px;
+  border-top: 2.5px dotted rgb(99, 0, 0);
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: #971f1f; 
+  margin-top: 20px;
+}
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer .col h4{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+footer .col i{
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+footer .col p{
+  color: rgb(255, 255, 255);
+}
+footer .col a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  transition: 0.3s ease-in;
+}
+footer .col a:hover{
+  text-decoration:underline;
+}
